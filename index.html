@@ -85,15 +85,46 @@
             100% { transform: scale(1); }
         }
 
-        /* Quick Info */
-        .quick-info {
+        /* Featured Video Section */
+        .featured-video {
             background: white;
-            margin: -30px auto 0;
+            margin: -30px auto 40px;
             border-radius: 15px;
-            padding: 30px;
+            padding: 40px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
             position: relative;
             z-index: 10;
+            text-align: center;
+        }
+
+        .featured-video h2 {
+            color: #2c3e50;
+            margin-bottom: 25px;
+            font-size: 2.2rem;
+        }
+
+        .featured-video iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .featured-video p {
+            margin-top: 20px;
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        /* Quick Info */
+        .quick-info {
+            background: white;
+            margin: 40px auto;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
 
         .info-grid {
@@ -386,6 +417,10 @@
             .photo-grid {
                 grid-template-columns: 1fr;
             }
+
+            .featured-video iframe {
+                height: 300px;
+            }
         }
 
         /* Modal para fotos */
@@ -435,9 +470,18 @@
         <div class="container">
             <h1><i class="fas fa-car"></i> Nissan Armada 2011</h1>
             <p class="subtitle">Lujo, Potencia y Confiabilidad - 4WD con Asientos de Piel</p>
-            <div class="price-badge">
-                <i class="fas fa-tag"></i> ¡Precio Negociable!
-            </div>
+            <a href="https://wa.me/52998139930?text=Hola%2C%20me%20interesa%20la%20Nissan%20Armada%202011.%20%C2%BFCu%C3%A1l%20es%20el%20precio%20y%20podemos%20negociar%3F" class="price-badge" target="_blank">
+                <i class="fas fa-tag"></i> ¡Precio Negociable! - Contáctame
+            </a>
+        </div>
+    </div>
+
+    <!-- Featured Video Section -->
+    <div class="container">
+        <div class="featured-video">
+            <h2><i class="fas fa-play-circle" style="color: #e74c3c;"></i> ¡Ve Este Increíble Vehículo en Acción!</h2>
+            <iframe src="https://www.youtube.com/embed/IoVq0RoNovY?rel=0&showinfo=0" allowfullscreen></iframe>
+            <p><i class="fas fa-video"></i> Video completo del vehículo - ¡Haz clic para reproducir!</p>
         </div>
     </div>
 
@@ -663,7 +707,7 @@
                 <p>¿Interesado en esta increíble Nissan Armada 2011? ¡No dudes en contactarme!</p>
                 <p>Estoy disponible para responder todas tus preguntas y coordinar una cita para que veas el vehículo.</p>
                 
-                <a href="https://wa.me/5299981399930?text=Hola%2C%20estoy%20interesado%20en%20la%20Nissan%20Armada%202011%20que%20tienes%20en%20venta.%20%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n%3F" class="whatsapp-btn" target="_blank">
+                <a href="https://wa.me/52998139930?text=Hola%2C%20estoy%20interesado%20en%20la%20Nissan%20Armada%202011%20que%20tienes%20en%20venta.%20%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n%3F" class="whatsapp-btn" target="_blank">
                     <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
                 </a>
                 
@@ -708,7 +752,7 @@
                 
                 <h3 style="margin: 30px 0 20px;">¿Necesitas un sitio web como este para tu venta?</h3>
                 
-                <a href="https://wa.me/5299981399930?text=Hola%2C%20me%20gust%C3%B3%20mucho%20el%20sitio%20web%20de%20la%20Nissan%20Armada.%20Me%20interesa%20contratar%20tus%20servicios%20para%20crear%20un%20sitio%20similar%20para%20mi%20venta.%20%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n%20y%20precios%3F" class="whatsapp-btn" target="_blank">
+                <a href="https://wa.me/52998139930?text=Hola%2C%20me%20gust%C3%B3%20mucho%20el%20sitio%20web%20de%20la%20Nissan%20Armada.%20Me%20interesa%20contratar%20tus%20servicios%20para%20crear%20un%20sitio%20similar%20para%20mi%20venta.%20%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n%20y%20precios%3F" class="whatsapp-btn" target="_blank">
                     <i class="fab fa-whatsapp"></i> ¡Quiero Mi Sitio Web!
                 </a>
                 
